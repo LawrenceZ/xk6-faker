@@ -1,7 +1,7 @@
 # xk6-faker
 
 > :speaker: NOTICE: This is a temp fork to work-around this [PR](https://github.com/szkiba/xk6-faker/pull/4).
->                   I will remove this fork once this :point_up: PR is merged.
+>                   I will remove this fork once this :point_left: PR is merged.
 
 A k6 extension for random fake data generation.
 
