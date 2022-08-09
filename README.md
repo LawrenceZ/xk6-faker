@@ -1,5 +1,8 @@
 # xk6-faker
 
+> :speaker: NOTICE: This is a temp fork to work-around this [PR](https://github.com/szkiba/xk6-faker/pull/4).
+>                   I will remove this fork once this :point_up: PR is merged.
+
 A k6 extension for random fake data generation.
 
 Altought there is several good JavaScript fake data generator, but using these as remote module in k6 tests has several disadvantages (download size, memory usage, startup time, etc). The *xk6-faker* implemented as a golang extension, so tests starts faster and use less memory. The price is a little bit smaller feature set compared with popular JavaScript fake data generators.
@@ -64,5 +67,5 @@ Then:
 
 2. Build the binary:
   ```bash
-  $ xk6 build --with github.com/szkiba/xk6-faker@latest
+  $ xk6 build --with github.com/LawrenceZ/xk6-faker@latest
   ```
